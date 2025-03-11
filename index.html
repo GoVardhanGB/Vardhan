@@ -501,6 +501,14 @@
     <div id="projects" class="section">
         <div class="portfolio-container">
             <!-- Project Thumbnails -->
+	    <div class="project" onclick="openModal('project9')">
+                <div class="project-overlay"></div>
+                <img src="Asset/ds.png" alt="DesignSystem">
+                <div class="project-title">
+                    <h3>Design System</h3>
+                    <p style="color: #ddd;">A Design System is a living, complete set of standards intended to manage design at scale using reusable components and patterns.</p>
+                </div>
+            </div>
             <div class="project" onclick="openModal('project1')">
                 <div class="project-overlay"></div>
                 <img src="Assets/Pro1.png" alt="Project 1">
@@ -568,7 +576,20 @@
         </div>
         
         <!-- Modal for each project -->
-        <div id="project1" class="modal">
+        <div id="project9" class="modal">
+            <div class="modal-content">
+                <button class="close" onclick="closeModal('project9')">X</button>
+            <p>                         
+            <img src="Assets/clr.png" alt="Design System" style="padding-left: 30px;" width="95%"><br><br><br><br><br><br>
+            <img src="Assets/txic.png" alt="Design System" style="padding-left: 30px;" width="95%"><br><br><br><br><br><br>            
+            <img src="Assets/btn.png" alt="Design System" style="padding-left: 30px;" width="95%"><br><br><br><br><br><br>
+            <img src="Assets/inpt.png" alt="Design System" style="padding-left: 30px;" width="95%"><br><br><br><br><br><br>
+            <img src="Assets/slct.png" alt="Design System" style="padding-left: 30px;" width="95%"><br><br><br><br><br><br>            
+            </p>                            
+            </div>
+        </div>
+	    
+	<div id="project1" class="modal">
             <div class="modal-content">
                 <button class="close" onclick="closeModal('project1')">X</button>
             <p>                         
@@ -661,6 +682,15 @@
                 <img src="Assets/pb1.png" alt="PatientBilling" width="95%"><br><br><br><br><br><br><br><br>
                 <img src="Assets/pb2.png" alt="PatientBilling"  style="padding-left: 25px;"  width="95%"><br><br><br><br><br><br><br><br>
                 </p> 
+            </div>
+        </div>
+
+	<div id="project10" class="modal">
+            <div class="modal-content">
+                <button class="close" onclick="closeModal('project10')">X</button>
+            <p>                         
+            <img src="Assets/gd1.png" alt="Graphic Designing" style="padding-left: 30px;" width="95%"><br><br><br><br><br><br>            
+            </p>                            
             </div>
         </div>
         
